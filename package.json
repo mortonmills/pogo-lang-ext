@@ -1,7 +1,8 @@
 {
   "name": "pogo",
-  "displayName": "pogo",
+  "displayName": "Pogo",
   "description": "Pogo is an experimental markdown language for screenplays.",
+  "publisher": "def-notation",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.54.0"
