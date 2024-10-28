@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "pogo",
+	"patterns": [
+		{
+			"include": "#comment"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#character"
+		},
+		{
+			"include": "#separators"
+		},
+		{
+			"include": "#dialogue"
+		}
+	],
+	"repository": {
+		"strings": {
+			"name": "string.quoted.double.pogo",
+			"begin": "\"",
+			"end": "\""
+		},
+		"character": {
+			"patterns": [
+				{
+					"name": "variable",
+					"match": "^ *(?:\\w+ *)+(?=[:])"
+				}
+			]
+		},
+		"separators": {
+			"patterns": [
+				{
+					"name": "meta.separator",
+					"match": "[:]"
+				}
+			]
+		},
+		"dialogue": {
+			"patterns": [
+				{
+					"name": "markup.quote",
+					"match": "(?<=[:]) *(?:[\\w!?.]+ *)+"
+				}
+			]
+		},
+		"comment": {
+			"patterns": [
+				{
+					"name": "comment",
+					"match": "^%.*"
+				}
+			]
+		}
+
+	},
+	"scopeName": "source.pogo"
+}
