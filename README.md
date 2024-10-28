@@ -4,8 +4,6 @@ Pogo is an experimental markdown language for writing screenplays.
 
 ## Features
 
-Pogo is currently in development and is version 0.
-
 Pogo is written with the **character's** name of the left of a `:`.
 
 And the **dialogue** is written on the right of the `:`.
@@ -37,7 +35,7 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 <!-- Users appreciate release notes as you update your extension. -->
 
-### 0.0.0
+### 0.0.1
 
 Initial release of **Pogo**
 <!-- 
@@ -50,8 +48,6 @@ Fixed issue #. -->
 Added features X, Y, and Z. -->
 
 ---
-
-**Enjoy!**
 
 <!-- ## Install your extension
 

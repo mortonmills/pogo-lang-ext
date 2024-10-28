@@ -19,7 +19,7 @@ Pogo uses [semantic versioning ](https://semver.org/)
 - convert **Pogo** to audio using text-to-speech.
 - add cue events, `[thunder rumbling]`, which will produce sound effects from the screenplay.
 
-## [0.0.0] - 2024-10-28
+## [0.0.1] - 2024-10-28
 
 - Initial release
 
